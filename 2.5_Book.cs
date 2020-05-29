@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Session2_TPRedo
 {
-    public partial class SponsorMain : Form
+    public partial class Book : Form
     {
         User _user;
-        public SponsorMain(User user)
+        public Book(User user)
         {
             InitializeComponent();
             _user = user;
@@ -22,21 +22,7 @@ namespace Session2_TPRedo
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            (new Login()).ShowDialog();
-            this.Close();
-        }
-
-        private void btnBook_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            (new Book(_user)).ShowDialog();
-            this.Close();
-        }
-
-        private void btnUpdate_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            (new UpdateBook(_user)).ShowDialog();
+            (new SponsorMain(_user)).ShowDialog();
             this.Close();
         }
     }
