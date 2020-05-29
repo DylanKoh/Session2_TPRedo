@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Session2_TPRedo
+{
+    public partial class AddPackages : Form
+    {
+        public AddPackages()
+        {
+            InitializeComponent();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            (new SponsorManagerMain()).ShowDialog();
+            this.Close();
+        }
+    }
+}

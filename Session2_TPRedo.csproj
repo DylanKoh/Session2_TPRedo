@@ -61,6 +61,18 @@
     <Compile Include="2.2_AccountCreate.Designer.cs">
       <DependentUpon>2.2_AccountCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="2.8_AddPackages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.8_AddPackages.Designer.cs">
+      <DependentUpon>2.8_AddPackages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2.9_ApproveBookings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.9_ApproveBookings.Designer.cs">
+      <DependentUpon>2.9_ApproveBookings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Benefit.cs">
       <DependentUpon>Session2Model.tt</DependentUpon>
     </Compile>
@@ -123,6 +135,18 @@
     <Compile Include="User_Type.cs">
       <DependentUpon>Session2Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="2.7_ViewPackages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.7_ViewPackages.Designer.cs">
+      <DependentUpon>2.7_ViewPackages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2.10_ViewSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.10_ViewSummary.Designer.cs">
+      <DependentUpon>2.10_ViewSummary.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="2.1_Login.resx">
       <DependentUpon>2.1_Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +155,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="2.5_Book.resx">
       <DependentUpon>2.5_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.8_AddPackages.resx">
+      <DependentUpon>2.8_AddPackages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.9_ApproveBookings.resx">
+      <DependentUpon>2.9_ApproveBookings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -149,6 +179,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="2.6_UpdateBook.resx">
       <DependentUpon>2.6_UpdateBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.7_ViewPackages.resx">
+      <DependentUpon>2.7_ViewPackages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.10_ViewSummary.resx">
+      <DependentUpon>2.10_ViewSummary.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
