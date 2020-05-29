@@ -51,11 +51,15 @@ namespace Session2_TPRedo
                         MessageBox.Show("Login successful!");
                         if (user.userTypeIdFK == 1)
                         {
-
+                            this.Hide();
+                            (new SponsorManagerMain()).ShowDialog();
+                            this.Close();
                         }
                         else
                         {
-
+                            this.Hide();
+                            (new SponsorMain(user)).ShowDialog();
+                            this.Close();
                         }
                     }
                 }

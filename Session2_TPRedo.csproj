@@ -55,11 +55,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountCreate.cs">
+    <Compile Include="2.2_AccountCreate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AccountCreate.Designer.cs">
-      <DependentUpon>AccountCreate.cs</DependentUpon>
+    <Compile Include="2.2_AccountCreate.Designer.cs">
+      <DependentUpon>2.2_AccountCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Benefit.cs">
       <DependentUpon>Session2Model.tt</DependentUpon>
@@ -93,6 +93,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Session2Model.edmx</DependentUpon>
     </Compile>
+    <Compile Include="2.3_SponsorMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.3_SponsorMain.Designer.cs">
+      <DependentUpon>2.3_SponsorMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2.4_SponsorManagerMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2.4_SponsorManagerMain.Designer.cs">
+      <DependentUpon>2.4_SponsorManagerMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs">
       <DependentUpon>Session2Model.tt</DependentUpon>
     </Compile>
@@ -102,8 +114,8 @@
     <EmbeddedResource Include="2.1_Login.resx">
       <DependentUpon>2.1_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AccountCreate.resx">
-      <DependentUpon>AccountCreate.cs</DependentUpon>
+    <EmbeddedResource Include="2.2_AccountCreate.resx">
+      <DependentUpon>2.2_AccountCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -114,6 +126,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="2.3_SponsorMain.resx">
+      <DependentUpon>2.3_SponsorMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2.4_SponsorManagerMain.resx">
+      <DependentUpon>2.4_SponsorManagerMain.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
