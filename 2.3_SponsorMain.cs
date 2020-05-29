@@ -29,7 +29,7 @@ namespace Session2_TPRedo
         private void btnBook_Click(object sender, EventArgs e)
         {
             this.Hide();
-            (new Book(_user)).ShowDialog();
+            (new BookPackage(_user)).ShowDialog();
             this.Close();
         }
 
